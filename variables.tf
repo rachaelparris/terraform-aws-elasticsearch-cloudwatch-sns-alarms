@@ -12,7 +12,6 @@ variable "create_sns_topic" {
 variable "sns_topic" {
   description = "SNS topic you want to specify. If leave empty, it will use a prefix and a timestampe appended"
   type        = string
-  default     = ""
 }
 
 variable "alarm_name_prefix" {
